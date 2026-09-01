@@ -78,6 +78,30 @@ export const works: Work[] = [
   },
 
   {
+    slug: "basses-for-fun",
+    title: "Basses for Fun",
+    category: "flex-band",
+
+    composerName: "Alberto Caeiro",
+    subtitle: "for Flex Band",
+
+    instrumentation:
+      "5 Flexible Parts + Percussion",
+
+    duration: "ca. 3:00",
+    year: "2025",
+    level: "Grade 2",
+
+    description:
+      "Uma obra divertida para Flex Band que coloca os instrumentos graves em evidência, dando-lhes frequentemente um papel de destaque e a oportunidade de assumir quase a voz principal do ensemble. Uma abordagem leve e enérgica que valoriza uma secção muitas vezes associada sobretudo à função de acompanhamento.",
+
+    audio: "/audio/basses-for-fun.mp3",
+    scoreSample: "/scores/basses-for-fun.pdf",
+
+    featured: true,
+  },
+
+  {
     slug: "semper-caecum",
     title: "Semper Caecum",
     category: "concert-band",
