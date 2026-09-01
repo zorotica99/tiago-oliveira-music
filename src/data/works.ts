@@ -80,25 +80,25 @@ export const works: Work[] = [
   {
     slug: "basses-for-fun",
     title: "Basses for Fun",
-    category: "flex-band",
+    category: "concert-band",
 
     composerName: "Alberto Caeiro",
-    subtitle: "for Flex Band",
+    subtitle: "for Concert Band",
 
     instrumentation:
-      "5 Flexible Parts + Percussion",
+      "Flute, Oboe, Clarinet in B♭ 1, Clarinet in B♭ 2, Clarinet in B♭ 3, Alto Saxophone, Tenor Saxophone, Baritone Saxophone, Bassoon, Trumpet in B♭ 1, Trumpet in B♭ 2, Horn in F, Trombone, Euphonium, Tuba, Timpani, Tambourine, Triangle, Marimba",
 
     duration: "ca. 3:00",
     year: "2025",
     level: "Grade 2",
 
     description:
-      "Uma obra divertida para Flex Band que coloca os instrumentos graves em evidência, dando-lhes frequentemente um papel de destaque e a oportunidade de assumir quase a voz principal do ensemble. Uma abordagem leve e enérgica que valoriza uma secção muitas vezes associada sobretudo à função de acompanhamento.",
+      "Uma obra divertida para Concert Band que procura inverter, por momentos, os papéis habituais dentro da banda. Os instrumentos graves ganham especial protagonismo, assumindo frequentemente uma função melódica e tornando-se quase a voz principal da obra. Uma peça leve e enérgica, pensada para valorizar os baixos e proporcionar um momento divertido tanto aos músicos como ao público.",
 
     audio: "/audio/basses-for-fun.mp3",
     scoreSample: "/scores/basses-for-fun.pdf",
 
-    featured: true,
+    featured: false,
   },
 
   {
