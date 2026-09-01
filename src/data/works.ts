@@ -54,6 +54,30 @@ export type Work = {
 
 export const works: Work[] = [
   {
+    slug: "the-wind-spand",
+    title: "The Wind Spand",
+    category: "flex-band",
+
+    composerName: "Alberto Caeiro",
+    subtitle: "for Flex Band",
+
+    instrumentation:
+      "5 Flexible Parts + Percussion",
+
+    duration: "ca. 2:30",
+    year: "2026",
+    level: "Grade 1.5",
+
+    description:
+      "Uma obra de carácter sério e expressivo para Flex Band, concebida para jovens músicos e instrumentação flexível. Ao longo da obra, a escrita explora diferentes cores e texturas, incluindo um momento em que os intérpretes mais jovens utilizam garrafas para produzir som, integrando um elemento tímbrico pouco convencional na performance.",
+
+    audio: "/audio/the-wind-spand.mp3",
+    scoreSample: "/scores/the-wind-spand.pdf",
+
+    featured: true,
+  },
+
+  {
     slug: "semper-caecum",
     title: "Semper Caecum",
     category: "concert-band",
