@@ -1,6 +1,18 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Footer, Header, ScrollManager } from "./components/SiteShell";
-import { catalogueAreas, marchAreas } from "./data/catalogue";
+import {
+  BrowserRouter,
+  Route,
+  Routes,
+} from "react-router-dom";
+import {
+  Footer,
+  Header,
+  ScrollManager,
+} from "./components/SiteShell";
+import { SEOManager } from "./components/SEOManager";
+import {
+  catalogueAreas,
+  marchAreas,
+} from "./data/catalogue";
 import {
   CataloguePage,
   MarchCategoryPage,
@@ -23,40 +35,58 @@ function Website() {
 
   return (
     <div className="site">
+      <SEOManager />
       <ScrollManager />
-
       <Header />
 
       <Routes>
         <Route path="/" element={<HomePage />} />
 
-        <Route path="/catalogo" element={<CataloguePage />} />
+        <Route
+          path="/catalogo"
+          element={<CataloguePage />}
+        />
 
         {normalAreas.map((area) => (
           <Route
             key={area.slug}
             path={area.slug}
-            element={<StandardCategoryPage area={area} />}
+            element={
+              <StandardCategoryPage area={area} />
+            }
           />
         ))}
 
-        <Route path="/marchas" element={<MarchesPage />} />
+        <Route
+          path="/marchas"
+          element={<MarchesPage />}
+        />
 
         <Route
           path="/marchas/rua"
-          element={<MarchCategoryPage area={marchAreas[0]} />}
+          element={
+            <MarchCategoryPage area={marchAreas[0]} />
+          }
         />
 
         <Route
           path="/marchas/procissao"
-          element={<MarchCategoryPage area={marchAreas[1]} />}
+          element={
+            <MarchCategoryPage area={marchAreas[1]} />
+          }
         />
 
-        <Route path="/obra/:slug" element={<WorkPage />} />
+        <Route
+          path="/obra/:slug"
+          element={<WorkPage />}
+        />
 
         <Route path="/sobre" element={<AboutPage />} />
 
-        <Route path="/contacto" element={<ContactPage />} />
+        <Route
+          path="/contacto"
+          element={<ContactPage />}
+        />
 
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
