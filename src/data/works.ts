@@ -61,8 +61,7 @@ export const works: Work[] = [
     composerName: "Alberto Caeiro",
     subtitle: "for Flex Band",
 
-    instrumentation:
-      "5 Flexible Parts + Percussion",
+    instrumentation: "5 Flexible Parts + Percussion",
 
     duration: "ca. 2:30",
     year: "2026",
@@ -145,6 +144,30 @@ export const works: Work[] = [
 
     audio: "/audio/coro-dos-sabios.mp3",
     scoreSample: "/scores/coro-dos-sabios.pdf",
+
+    featured: false,
+  },
+
+  {
+    slug: "pinheirinho-pinheirinho",
+    title: "Pinheirinho, pinheirinho",
+    category: "vocal-concert-band",
+
+    composerName: "Arr. Alberto Caeiro",
+    subtitle: "for Wind Band and Children's Choir",
+
+    instrumentation:
+      "Children's Choir, Flute, Oboe (optional Flute 2), Clarinet in B♭ 1, Clarinet in B♭ 2, Bass Clarinet in B♭, Alto Saxophone, Tenor Saxophone, Baritone Saxophone, Bassoon, Trumpet in B♭ 1, Trumpet in B♭ 2, Horn in F, Trombone, Euphonium, Tuba, Timpani, Glockenspiel, Sleigh Bells, Snare Drum, Bass Drum",
+
+    duration: "ca. 2:00",
+    year: "2026",
+    level: "Grade 1.5",
+
+    description:
+      "Arranjo da conhecida canção de Natal «Pinheirinho, pinheirinho», para banda de sopros e coro infantil. Uma versão alegre e acessível, pensada para proporcionar aos jovens músicos a oportunidade de tocar em conjunto com um coro infantil, num ambiente festivo e natalício.",
+
+    audio: "/audio/pinheirinho-pinheirinho.mp3",
+    scoreSample: "/scores/pinheirinho-pinheirinho.pdf",
 
     featured: false,
   },
